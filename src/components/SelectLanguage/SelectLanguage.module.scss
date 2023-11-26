@@ -1,0 +1,38 @@
+@import "@/styles/constants.scss";
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  &__flag {
+    height: 1.5rem;
+  }
+}
+
+.select {
+  max-width: 170px;
+
+  &__control {
+    background-color: rgba($white, 0.1) !important;
+    border-radius: 100vmax !important;
+    padding: 0.1rem;
+    border: none !important;
+  }
+
+  &__menu {
+    background-color: $fade !important;
+    padding: 0.1rem;
+    border-radius: 1rem !important;
+  }
+
+  &__list {
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 65px;
+  }
+
+}

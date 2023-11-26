@@ -1,0 +1,20 @@
+@import "@/styles/constants.scss";
+
+.dropzone {
+  height: $drop-zone-height;
+  width: 100%;
+  padding: 0 1rem;
+  border: 5px dashed $white;
+  background-color: $shadow;
+  cursor: pointer;
+
+  &__content,
+  &__inner {
+    height: 100%;
+  }
+
+  &__inner {
+    gap: 1.5rem;
+    text-align: center;
+  }
+}

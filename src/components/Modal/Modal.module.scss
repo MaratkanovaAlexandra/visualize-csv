@@ -1,0 +1,17 @@
+.modal {
+  &__content{
+    height: 100%;
+    padding: 0 15%;
+  }
+
+  &__nextButton {
+    margin-top: 4rem;
+  }
+
+  &__buttons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    inset: 0.5rem 0.5rem auto auto;
+  }
+}
